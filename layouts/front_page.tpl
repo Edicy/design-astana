@@ -14,7 +14,7 @@
 	</div>
 	<div id="container">
   {% include "Header" %}
-  <div id="content" class="clearfix">
+  <div id="content" class="clearfix" data-search-indexing-allowed="true">
    {% content %}
   </div>
   <div id="footer">

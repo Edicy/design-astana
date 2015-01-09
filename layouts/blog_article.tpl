@@ -25,11 +25,11 @@
      </td>
     </tr>
    </table>
-<div class="clearfix">
+<div class="clearfix" data-search-indexing-allowed="true">
    {% editable article.excerpt %}
 </div>
    <br/>
-<div class="clearfix">
+<div class="clearfix" data-search-indexing-allowed="true">
    {% editable article.body %}
 </div>
     {% if editmode %}
