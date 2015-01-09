@@ -1,158 +1,158 @@
 {
-  "preview_small": "http://static.edicy.com/designs/previews/astana_small.jpg",
-  "preview_medium": "http://static.edicy.com/designs/previews/astana_medium.png",
   "description": "Astana",
-  "assets": [
-    {
-      "file": "images/astana-01-b.gif",
-      "kind": "images",
-      "filename": "astana-01-b.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/astana-01-b_medium.gif",
-      "kind": "images",
-      "filename": "astana-01-b_medium.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/astana-submit.gif",
-      "kind": "images",
-      "filename": "astana-submit.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/astana-submit_medium.gif",
-      "kind": "images",
-      "filename": "astana-submit_medium.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/rss.gif",
-      "kind": "images",
-      "filename": "rss.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/rss_medium.gif",
-      "kind": "images",
-      "filename": "rss_medium.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/searchbox-bg.gif",
-      "kind": "images",
-      "filename": "searchbox-bg.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/searchbox-bg_medium.gif",
-      "kind": "images",
-      "filename": "searchbox-bg_medium.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "stylesheets/style.css",
-      "kind": "stylesheets",
-      "filename": "style.css",
-      "content_type": "text/css"
-    },
-    {
-      "file": "images/tag-big-white.png",
-      "kind": "images",
-      "filename": "tag-big-white.png",
-      "content_type": "image/png"
-    },
-    {
-      "file": "images/tag-big-white.svg",
-      "kind": "images",
-      "filename": "tag-big-white.svg",
-      "content_type": "image/svg+xml"
-    },
-    {
-      "file": "images/tag-white.png",
-      "kind": "images",
-      "filename": "tag-white.png",
-      "content_type": "image/png"
-    },
-    {
-      "file": "images/tag-white.svg",
-      "kind": "images",
-      "filename": "tag-white.svg",
-      "content_type": "image/svg+xml"
-    },
-    {
-      "file": "javascripts/modernizr.js",
-      "kind": "javascripts",
-      "filename": "modernizr.js",
-      "content_type": "text/javascript"
-    }
-  ],
   "name": "Astana",
+  "preview_medium": "http://static.edicy.com/designs/previews/astana_medium.png",
+  "preview_small": "http://static.edicy.com/designs/previews/astana_small.jpg",
   "author": "Tajo Oja",
   "layouts": [
     {
-      "file": "layouts/common_page.tpl",
-      "title": "Common page",
+      "content_type": "blog",
       "component": false,
-      "layout_name": "page_default",
-      "content_type": "page"
-    },
-    {
       "file": "layouts/blog___news.tpl",
-      "title": "Blog & News",
-      "component": false,
       "layout_name": "blog_front",
-      "content_type": "blog"
+      "title": "Blog & News"
     },
     {
+      "content_type": "blog_article",
+      "component": false,
       "file": "layouts/blog_article.tpl",
-      "title": "Blog Article",
-      "component": false,
       "layout_name": "blog_article",
-      "content_type": "blog_article"
+      "title": "Blog Article"
     },
     {
-      "file": "components/header.tpl",
-      "title": "Header",
-      "component": true,
-      "layout_name": "",
-      "content_type": "component"
-    },
-    {
-      "file": "components/langmenu.tpl",
-      "title": "Langmenu",
-      "component": true,
-      "layout_name": "",
-      "content_type": "component"
-    },
-    {
-      "file": "components/search.tpl",
-      "title": "Search",
-      "component": true,
-      "layout_name": "",
-      "content_type": "component"
-    },
-    {
-      "file": "components/siteheader.tpl",
-      "title": "SiteHeader",
-      "component": true,
-      "layout_name": "",
-      "content_type": "component"
-    },
-    {
-      "file": "layouts/front_page.tpl",
-      "title": "Front page",
+      "content_type": "page",
       "component": false,
-      "layout_name": "page_front",
-      "content_type": "page"
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
     },
     {
-      "file": "components/js.tpl",
-      "title": "JS",
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "component",
       "component": true,
-      "layout_name": "",
-      "content_type": "component"
+      "file": "components/header.tpl",
+      "layout_name": "header",
+      "title": "header"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/search.tpl",
+      "layout_name": "search",
+      "title": "search"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/tag-big-white.svg",
+      "kind": "assets",
+      "filename": "tag-big-white.svg"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/tag-white.svg",
+      "kind": "assets",
+      "filename": "tag-white.svg"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/astana-01-b.gif",
+      "kind": "images",
+      "filename": "astana-01-b.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/astana-01-b_medium.gif",
+      "kind": "images",
+      "filename": "astana-01-b_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/astana-submit.gif",
+      "kind": "images",
+      "filename": "astana-submit.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/astana-submit_medium.gif",
+      "kind": "images",
+      "filename": "astana-submit_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/rss.gif",
+      "kind": "images",
+      "filename": "rss.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/rss_medium.gif",
+      "kind": "images",
+      "filename": "rss_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/searchbox-bg.gif",
+      "kind": "images",
+      "filename": "searchbox-bg.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/searchbox-bg_medium.gif",
+      "kind": "images",
+      "filename": "searchbox-bg_medium.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/tag-big-white.png",
+      "kind": "images",
+      "filename": "tag-big-white.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/tag-white.png",
+      "kind": "images",
+      "filename": "tag-white.png"
+    },
+    {
+      "content_type": "application/javascript",
+      "file": "javascripts/modernizr.js",
+      "kind": "javascripts",
+      "filename": "modernizr.js"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
     }
   ]
 }
