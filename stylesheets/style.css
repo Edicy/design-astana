@@ -430,3 +430,27 @@ body .add-article {
 .edy-site-blog-comment {
   line-height: 19px
 }
+
+/* Voog cms style overrides */
+#wrap .edy-empty-bordered {
+  color: rgba(255,255,255,.33);
+  border-color: rgba(255,255,255,.33);
+}
+#wrap .edy-texteditor-view.placeholder {
+  color: rgba(255,255,255,.5);
+}
+#wrap .edy-content-element-hover {
+  border-color: rgba(255,255,255,.1);
+}
+#wrap .edy-texteditor-active {
+  outline-color: rgba(255,255,255,.2);
+}
+
+#wrap .edy-fe-field-active,
+#wrap .edy-fe-active .edy-fe-field:hover {
+  outline-color: rgba(255,255,255,.1);
+}
+
+#wrap .edy-taglist {
+  border-color: rgba(255,255,255,.2);
+}
