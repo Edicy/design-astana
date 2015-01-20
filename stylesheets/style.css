@@ -159,6 +159,9 @@ a:hover {
 	#mainmenu a:hover {
   background: #3e3e3e;
 	}
+  #mainmenu a.edy-cbtn {
+    background: none;
+  }
 	#mainmenu a.active {
   color: black;
   background: #aecd00;
