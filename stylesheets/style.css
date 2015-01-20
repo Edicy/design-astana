@@ -438,6 +438,10 @@ width: 25%;
 .form_field_file {
   color: white;
 }
+.form_submit input:disabled {
+  color: #fff;
+  color: rgba(255,255,255,.5);
+}
 #left-comment-count {
   float: left;
   width: 170px
