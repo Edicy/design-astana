@@ -92,6 +92,9 @@ a:hover {
   color: #aecd00;
   background: #3e3e3e;
   }
+  #langmenu ul li a.edy-cbtn:hover {
+    background: none;
+  }
 
 #search {
 	float: right;
