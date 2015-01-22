@@ -25,11 +25,11 @@
      </td>
     </tr>
    </table>
-<div class="clearfix" data-search-indexing-allowed="true">
+<div class="clearfix content-hyphenate" data-search-indexing-allowed="true">
    {% editable article.excerpt %}
 </div>
    <br/>
-<div class="clearfix" data-search-indexing-allowed="true">
+<div class="clearfix content-hyphenate" data-search-indexing-allowed="true">
    {% editable article.body %}
 </div>
     {% if editmode %}
@@ -56,7 +56,7 @@
   <div id="right-comments">
     <table>
       {% for comment in article.comments %}
-      <tr class="edy-site-blog-comment">
+      <tr class="edy-site-blog-comment content-hyphenate">
         <td class="author">
           <h2>{{ comment.author }}</h2>{{ comment.created_at | format_date:"short" }} {% removebutton %}</td>
         <td>{{ comment.body_html }}</td>
@@ -97,7 +97,7 @@
    {% endcommentform %}
   </div>
   <div id="footer">
-   <div id="footer_cont" class="clearfix">
+   <div id="footer_cont" class="clearfix content-hyphenate">
    {% content name="footer" xpage="true" %}
    </div>
    <ul id="footerul">

@@ -16,6 +16,13 @@ body {
 	min-height: 1px;
 	font-size: 1px;
 }
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 pre {
 white-space: normal;
 }
