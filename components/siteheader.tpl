@@ -18,5 +18,5 @@
   }
   </style>
 <![endif]-->
-<!--[if IE]><link rel="stylesheet" href="http://static.edicy.com/assets/ie.css" type="text/css" /><![endif]-->
+<!--[if IE]><style>.clearfix { zoom:1; }</style><![endif]-->
 <title>{% if article %}{{ article.title }} | {{page.site_title}}{% else %}{{page.site_title}} | {{ page.title }}{% endif %}</title>
