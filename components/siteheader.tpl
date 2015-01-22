@@ -6,7 +6,7 @@
    <script src="{{ javascripts_path }}/modernizr.js"></script>
    {% if site.search.enabled %}{% stylesheet_link "assets/site_search/3.0/style.css?1" static_host="true" %}{% endif %}
    {% stylesheet_link "style.css?astana1" %}
-   {% if editmode %}<link href="{{ site.static_asset_host }}/assets/admin/editmode.css" media="screen" rel="stylesheet" type="text/css"/>{% endif %}
+   {% if editmode %}<style>.untranslated{opacity:.5;filter:alpha(Opacity=50);zoom:1}</style>{% endif %}
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
