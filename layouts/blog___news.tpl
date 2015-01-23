@@ -5,7 +5,7 @@
 {{ blog.rss_link }}
 </head>
 <body>
-<div id="wrap">
+<div id="wrap" class="content-hyphenate">
 	<div id="header">
   <div id="header-inner">
    {% include "Langmenu" %}
@@ -30,7 +30,7 @@
    {% addbutton class="add-article" %}
     
    {% for article in articles %}
-   <div class="blogpost clearfix content-hyphenate">
+   <div class="blogpost clearfix">
     <table class="posthead">
      <tr>
       <td class="date">{{ article.created_at | format_date;"short" }}</td>
@@ -45,7 +45,7 @@
    {% endfor %}
   </div>
   <div id="footer">
-   <div id="footer_cont" class="clearfix content-hyphenate">
+   <div id="footer_cont" class="clearfix">
    {% content name="footer"  xpage="true" %}
    </div>
    <ul id="footerul">

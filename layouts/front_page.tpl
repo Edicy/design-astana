@@ -4,7 +4,7 @@
 {% include "SiteHeader" %}
 </head>
 <body>
-<div id="wrap">
+<div id="wrap" class="content-hyphenate">
 	<div id="header">
   <div id="header-inner">
    {% include "Langmenu" %}
@@ -14,11 +14,11 @@
 	</div>
 	<div id="container">
   {% include "Header" %}
-  <div id="content" class="clearfix content-hyphenate" data-search-indexing-allowed="true">
+  <div id="content" class="clearfix" data-search-indexing-allowed="true">
    {% content %}
   </div>
   <div id="footer">
-   <div id="footer_cont" class="clearfix content-hyphenate">
+   <div id="footer_cont" class="clearfix">
    {% content name="footer" xpage="true" %}
    </div>
    <ul id="footerul">
