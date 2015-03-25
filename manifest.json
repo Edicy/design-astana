@@ -38,35 +38,35 @@
       "component": true,
       "file": "components/header.tpl",
       "layout_name": "header",
-      "title": "header"
+      "title": "Header"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/js.tpl",
       "layout_name": "js",
-      "title": "js"
+      "title": "JS"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/langmenu.tpl",
       "layout_name": "langmenu",
-      "title": "langmenu"
+      "title": "Langmenu"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/search.tpl",
       "layout_name": "search",
-      "title": "search"
+      "title": "Search"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/siteheader.tpl",
       "layout_name": "siteheader",
-      "title": "siteheader"
+      "title": "SiteHeader"
     }
   ],
   "assets": [
@@ -90,21 +90,9 @@
     },
     {
       "content_type": "image/gif",
-      "file": "images/astana-01-b_medium.gif",
-      "kind": "images",
-      "filename": "astana-01-b_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
       "file": "images/astana-submit.gif",
       "kind": "images",
       "filename": "astana-submit.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/astana-submit_medium.gif",
-      "kind": "images",
-      "filename": "astana-submit_medium.gif"
     },
     {
       "content_type": "image/gif",
@@ -114,21 +102,9 @@
     },
     {
       "content_type": "image/gif",
-      "file": "images/rss_medium.gif",
-      "kind": "images",
-      "filename": "rss_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
       "file": "images/searchbox-bg.gif",
       "kind": "images",
       "filename": "searchbox-bg.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/searchbox-bg_medium.gif",
-      "kind": "images",
-      "filename": "searchbox-bg_medium.gif"
     },
     {
       "content_type": "image/png",
