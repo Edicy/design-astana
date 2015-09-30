@@ -19,4 +19,4 @@
   </style>
 <![endif]-->
 <!--[if IE]><style>.clearfix { zoom:1; }</style><![endif]-->
-<title>{% if article %}{{ article.title }} | {{page.site_title}}{% else %}{{page.site_title}} | {{ page.title }}{% endif %}</title>
+<title>{% if article %}{{ article.title }} | {{page.site_title}}{% else %}{% unless page.site_title == "" %}{{ page.site_title }} | {% endunless %}{{ page.title }}{% endif %}</title>
