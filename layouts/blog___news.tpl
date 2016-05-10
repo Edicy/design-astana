@@ -16,7 +16,7 @@
 	<div id="container">
   {% include "Header" %}
   <div id="content">
-  
+
   {% if tags %}
             <div class="blog tagged-list-header">
                 <div class="header-tag-icon"></div>
@@ -28,7 +28,7 @@
             </div>
         {% endif %}
    {% addbutton class="add-article" %}
-    
+
    {% for article in articles %}
    <div class="blogpost clearfix">
     <table class="posthead">
