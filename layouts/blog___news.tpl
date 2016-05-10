@@ -33,7 +33,7 @@
    <div class="blogpost clearfix">
     <table class="posthead">
      <tr>
-      <td class="date">{{ article.created_at | format_date;"short" }}</td>
+      <td class="date">{{ article.created_at | format_date: "short" }}</td>
       <td>
        <h1><a href="{{ article.url }}">{{ article.title }}</a></h1>
        {{ article.author.name }}, <a href="{{ article.url }}#comments">{{ "comments" |lc }}: {{ article.comments_count }} </a>
